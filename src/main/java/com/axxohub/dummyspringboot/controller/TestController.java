@@ -19,6 +19,6 @@ public class TestController {
     @PostMapping("/reset")
     public Map<String, String> reset() {
         dataResetService.reset();
-        return Map.of("message", "Database reset complete");
+        return Map.of("message", "Database reset complete succeessful");
     }
 }
